@@ -2,6 +2,8 @@
 
 import UIKit
 
+                    //PROTOCOLS
+
 
 //Require you to declare if they are read AND write. The info inside tells us what you MUST have to use VEHICLE
 
