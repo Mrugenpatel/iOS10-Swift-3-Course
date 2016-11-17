@@ -9,5 +9,14 @@ All practice tasks and experiments as part of the Swift 3 iOS 10 course:
 - Dictionary
 - Functions
 - Inheritance
+- Locigical Operators
+- Loops
+- Numbers
+- Objects and Classes
+- Optionals
+- Polymophism
+- Protocol Oriented Programming
+- Strings
+- Variables
 
 
