@@ -1,2 +1,13 @@
-# Swift3Tutorials
-All practice tasks and experiments 
+### Swift3Tutorials
+
+##Description:
+All practice tasks and experiments as part of the Swift 3 iOS 10 course:
+
+- Arrays
+- Bools - Conditions and Comparison
+- Changing screens
+- Dictionary
+- Functions
+- Inheritance
+
+
