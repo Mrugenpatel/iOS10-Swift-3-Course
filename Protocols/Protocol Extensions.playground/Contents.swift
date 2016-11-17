@@ -19,6 +19,10 @@ protocol Vehicle: CustomStringConvertible {
 //create the EXTENSION here
 extension Vehicle {
     
+    var makeModel: String {
+        return "\(make) \(model)"
+    }
+    
     mutating func start() {
         if isRunning {
             print("already started")
@@ -44,12 +48,9 @@ struct SportsCar: Vehicle {
     var isRunning: Bool = false
     var make: String
     var model: String
+    
     var description: String {
-        if isRunning {
-            return "Sports car currently running"
-        } else {
-            return "Sports car currently turned off"
-        }
+        return self.makeModel
     }
     
     //DELETED this because we are now doing this functionality in the EXTENSION
@@ -88,11 +89,7 @@ class SemiTruck: Vehicle {
     }
     
     var description: String {
-        if isRunning {
-            return "Semi is running"
-        } else {
-            return "Semi is shut down"
-        }
+        return self.makeModel
     }
     
     //DELETED because we are now doing this in the EXTENSION
@@ -120,18 +117,37 @@ class SemiTruck: Vehicle {
     }
 }
 
-//var car1 = SportsCar()
-//var truck1 = SemiTruck()
+var car1 = SportsCar(isRunning: false, make: "Jaguar", model: "XJS")
+var truck1 = SemiTruck(isRunning: false, make: "Peterbuilt", model: "TTF")
 
-//car1.start()
-//truck1.start()
-//truck1.blowAirHorn()
+car1.start()
+truck1.start()
+truck1.blowAirHorn()
 //
-//car1.turnOff()
-//truck1.turnOff()
+car1.turnOff()
+truck1.turnOff()
 //
 //
-//var vehicleArray: Array<Vehicle> = [car1, truck1]
-//for vehicle in vehicleArray {
-//    print("\(vehicle.description)")
-//}
+var vehicleArray: Array<Vehicle> = [car1, truck1]
+for vehicle in vehicleArray {
+    print("\(vehicle.makeModel)")
+}
+
+
+//THIS IS WHAT WE CAN USE TO ENSURE NUMBERS RETURN AS WANTED!!
+extension Double {
+    var dollarString: String {
+        return String(format: "$%.02f", self)
+    }
+}
+
+var pct = 32.15 * 0.15
+pct.dollarString
+
+
+
+
+
+
+
+
