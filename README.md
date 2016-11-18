@@ -16,6 +16,7 @@ All practice tasks and experiments as part of the Swift 3 iOS 10 course:
 - Optionals
 - Polymophism
 - Protocol Oriented Programming
+- Generic protocols
 - Strings
 - Variables
 
