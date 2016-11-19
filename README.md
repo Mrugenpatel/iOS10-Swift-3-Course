@@ -1,4 +1,4 @@
-### Swift3Tutorials
+### Swift Tutorials
 
 ##Description:
 All practice tasks and experiments as part of the Swift 3 iOS 10 course:
