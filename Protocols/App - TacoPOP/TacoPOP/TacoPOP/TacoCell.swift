@@ -10,9 +10,16 @@ import UIKit
 
 class TacoCell: UICollectionViewCell {
 
-    override func awakeFromNib() {
-        super.awakeFromNib()
-        // Initialization code
+    @IBOutlet weak var tacoImage: UIImageView!
+    @IBOutlet weak var tacoLabel: UILabel!
+    
+    var taco: Taco!
+    
+    func configurerSell(taco: Taco) {
+        self.taco = taco
+//This ref the enum in taco.swift file. Again using image name convention for ease
+        tacoImage.image = UIImage(named: taco.proteinId.rawValue)
+        tacoLabel.text = taco.productName
     }
 
 }
