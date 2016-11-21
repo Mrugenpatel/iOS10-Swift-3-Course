@@ -9,7 +9,8 @@
 import UIKit
 
 //added in Nibloadable thing which is a protocol NEW way to make cells work
-class TacoCell: UICollectionViewCell, NibloadableView {
+//Added SHAKABLE to protocol and add in to mainVC didselectitematindexpath
+class TacoCell: UICollectionViewCell, NibloadableView, Shakable {
 
     @IBOutlet weak var tacoImage: UIImageView!
     @IBOutlet weak var tacoLabel: UILabel!
