@@ -8,7 +8,8 @@
 
 import UIKit
 
-class TacoCell: UICollectionViewCell {
+//added in Nibloadable thing which is a protocol NEW way to make cells work
+class TacoCell: UICollectionViewCell, NibloadableView {
 
     @IBOutlet weak var tacoImage: UIImageView!
     @IBOutlet weak var tacoLabel: UILabel!

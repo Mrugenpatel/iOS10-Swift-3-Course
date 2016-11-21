@@ -22,8 +22,20 @@ class MainVC: UIViewController, DataServiceDelegate {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        ds.delegate = self
+        ds.loadDeliciousTacoData()
+        
+        collectionView.delegate = self
+        collectionView.dataSource = self
+        
         headerView.addDropShadow()
-
+ 
+//OLD WAY to make nib work
+//        let nib = UINib(nibName: "TacoCell", bundle: nil)
+//        collectionView.register(nib, forCellWithReuseIdentifier: "TacoCell")
+        
+//NEW WAY using protocols and extensions
+        collectionView.register(TacoCell.self)
 
     }
 
