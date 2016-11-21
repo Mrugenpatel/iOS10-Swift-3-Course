@@ -24,6 +24,8 @@ class MainVC: UIViewController, DataServiceDelegate {
         
         ds.delegate = self
         ds.loadDeliciousTacoData()
+//SHUFFLE here because the array confirms to MutableCollection type
+        ds.tacoArray.shuffle()
         
         collectionView.delegate = self
         collectionView.dataSource = self
@@ -42,6 +44,8 @@ class MainVC: UIViewController, DataServiceDelegate {
 //This is us confirming to the DataSerDel needs
     func deliciousTacoDataLoaded() {
         print("Delious Taco Data Loaded")
+//We would normally do a reload here BUT we only have local data so no need
+        collectionView.reloadData()
     }
     
 }
