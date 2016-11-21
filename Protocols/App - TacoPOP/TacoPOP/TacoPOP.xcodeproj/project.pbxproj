@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE30375A1DE27D910069AAC7 /* TacoCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE3037581DE27D910069AAC7 /* TacoCell.swift */; };
+		FE30375B1DE27D910069AAC7 /* TacoCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE3037591DE27D910069AAC7 /* TacoCell.xib */; };
 		FE419C011DDEACDC00C675B7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE419C001DDEACDC00C675B7 /* AppDelegate.swift */; };
 		FE419C061DDEACDC00C675B7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE419C041DDEACDC00C675B7 /* Main.storyboard */; };
 		FE419C0B1DDEACDC00C675B7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE419C091DDEACDC00C675B7 /* LaunchScreen.storyboard */; };
@@ -30,6 +32,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE3037581DE27D910069AAC7 /* TacoCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TacoCell.swift; sourceTree = "<group>"; };
+		FE3037591DE27D910069AAC7 /* TacoCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TacoCell.xib; sourceTree = "<group>"; };
 		FE419BFD1DDEACDC00C675B7 /* TacoPOP.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TacoPOP.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE419C001DDEACDC00C675B7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		FE419C051DDEACDC00C675B7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -119,6 +123,8 @@
 				FE419C091DDEACDC00C675B7 /* LaunchScreen.storyboard */,
 				FE419C041DDEACDC00C675B7 /* Main.storyboard */,
 				FE419C2C1DDEB64100C675B7 /* HeaderView.swift */,
+				FE3037581DE27D910069AAC7 /* TacoCell.swift */,
+				FE3037591DE27D910069AAC7 /* TacoCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -241,6 +247,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE30375B1DE27D910069AAC7 /* TacoCell.xib in Resources */,
 				FE419C0B1DDEACDC00C675B7 /* LaunchScreen.storyboard in Resources */,
 				FE419C291DDEB20F00C675B7 /* Assets.xcassets in Resources */,
 				FE419C061DDEACDC00C675B7 /* Main.storyboard in Resources */,
@@ -261,6 +268,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE30375A1DE27D910069AAC7 /* TacoCell.swift in Sources */,
 				FE419C011DDEACDC00C675B7 /* AppDelegate.swift in Sources */,
 				FE419C2B1DDEB53600C675B7 /* DropShadow.swift in Sources */,
 				FE419C271DDEB09F00C675B7 /* MainVC.swift in Sources */,
@@ -474,6 +482,7 @@
 				FE419C1C1DDEACDC00C675B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		FE419C1D1DDEACDC00C675B7 /* Build configuration list for PBXNativeTarget "TacoPOPTests" */ = {
 			isa = XCConfigurationList;
@@ -482,6 +491,7 @@
 				FE419C1F1DDEACDC00C675B7 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

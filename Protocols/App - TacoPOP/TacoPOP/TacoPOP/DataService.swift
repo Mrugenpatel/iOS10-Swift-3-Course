@@ -8,6 +8,7 @@
 
 import Foundation
 
+//This protocol has been limited to just a CLASS
 protocol DataServiceDelegate: class {
     func deliciousTacoDataLoaded()
 }
