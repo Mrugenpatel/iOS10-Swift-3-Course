@@ -16,7 +16,7 @@ class TacoCell: UICollectionViewCell, NibloadableView {
     
     var taco: Taco!
     
-    func configurerSell(taco: Taco) {
+    func configureCell(taco: Taco) {
         self.taco = taco
 //This ref the enum in taco.swift file. Again using image name convention for ease
         tacoImage.image = UIImage(named: taco.proteinId.rawValue)

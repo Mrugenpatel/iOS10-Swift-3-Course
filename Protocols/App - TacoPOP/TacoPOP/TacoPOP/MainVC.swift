@@ -61,12 +61,20 @@ extension MainVC: UICollectionViewDelegate, UICollectionViewDelegateFlowLayout, 
     
 //defining how many loade on each screen
     func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TacoCell", for: indexPath) as?
-            TacoCell {
-            cell.configurerSell(taco: ds.tacoArray[indexPath.row])
-            return cell
-        }
-        return UICollectionViewCell()
+
+//OLD WAY
+//        if let cell = collectionView.dequeueReusableCell(withReuseIdentifier: "TacoCell", for: indexPath) as?
+//            TacoCell {
+//            cell.configurerSell(taco: ds.tacoArray[indexPath.row])
+//            return cell
+//        }
+//        return UICollectionViewCell()
+
+        
+//NEW WAY using protocols/extensions
+        let cell = collectionView.dequeueReusableCell(forIndexPath: indexPath) as TacoCell
+        cell.configureCell(taco: ds.tacoArray[indexPath.row])
+        return cell
     }
     
     func collectionView(_ collectionView: UICollectionView, didSelectItemAt indexPath: IndexPath) {
