@@ -1,0 +1,65 @@
+{
+  "stickers" : [
+    {
+      "filename" : "Swift.sticker"
+    },
+    {
+      "filename" : "AndroidPeek3.sticker"
+    },
+    {
+      "filename" : "GameAcademy.sticker"
+    },
+    {
+      "filename" : "AndroidPeek1.sticker"
+    },
+    {
+      "filename" : "Pearson.sticker"
+    },
+    {
+      "filename" : "AndroidPeek2.sticker"
+    },
+    {
+      "filename" : "AndroidPeek8.sticker"
+    },
+    {
+      "filename" : "Mark.sticker"
+    },
+    {
+      "filename" : "Evan.sticker"
+    },
+    {
+      "filename" : "AndroidPeek7.sticker"
+    },
+    {
+      "filename" : "Kalub.sticker"
+    },
+    {
+      "filename" : "AndroidPeek5.sticker"
+    },
+    {
+      "filename" : "Jack.sticker"
+    },
+    {
+      "filename" : "MarkRap.sticker"
+    },
+    {
+      "filename" : "AndroidPeek6.sticker"
+    },
+    {
+      "filename" : "Jacob.sticker"
+    },
+    {
+      "filename" : "AndroidPeek4.sticker"
+    },
+    {
+      "filename" : "DevLogo.sticker"
+    }
+  ],
+  "info" : {
+    "version" : 1,
+    "author" : "xcode"
+  },
+  "properties" : {
+    "grid-size" : "regular"
+  }
+}
