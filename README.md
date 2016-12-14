@@ -1,8 +1,10 @@
-### Swift Tutorials
+# iOS10 & Swift 3: From Beginner to paid professional course
 
 ##Description:
-All practice tasks and experiments as part of the Swift 3 iOS 10 course:
+All practice tasks and experiments as part of an iOS 10 & SWift 3 course from Udemy - https://www.udemy.com/devslopes-ios10/learn/v4/overview:
 
+
+##Content covered:
 - Arrays
 - Bools - Conditions and Comparison
 - Changing screens
